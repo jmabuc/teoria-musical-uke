@@ -140,6 +140,66 @@ a {
   text-align: center;
 }
 
+.uke-diagram {
+  background: #fff;
+  border: 1px solid var(--line);
+  border-radius: 8px;
+  margin: 22px 0;
+  overflow: auto;
+  padding: 14px;
+}
+
+.uke-diagram svg {
+  display: block;
+  height: auto;
+  min-width: 560px;
+  width: 100%;
+}
+
+.uke-diagram.chord-diagram svg {
+  margin: 0 auto;
+  max-width: 420px;
+  min-width: 320px;
+}
+
+.uke-diagram text {
+  fill: var(--ink);
+  font-family: ui-sans-serif, system-ui, sans-serif;
+}
+
+.uke-diagram .muted {
+  fill: var(--muted);
+}
+
+.uke-diagram .fret-line {
+  stroke: var(--line);
+  stroke-width: 3;
+}
+
+.uke-diagram .nut {
+  stroke: var(--ink);
+  stroke-width: 8;
+}
+
+.uke-diagram .string {
+  stroke: #7b7368;
+  stroke-width: 2.5;
+}
+
+.uke-diagram .finger {
+  fill: var(--accent);
+}
+
+.uke-diagram .finger-label {
+  fill: #fff;
+}
+
+.uke-diagram .open {
+  fill: var(--paper);
+  stroke: var(--accent);
+  stroke-width: 3;
+}
+
 .answers {
   display: grid;
   gap: 10px;

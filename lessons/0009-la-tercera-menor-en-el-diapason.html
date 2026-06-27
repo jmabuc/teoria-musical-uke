@@ -1,0 +1,142 @@
+<!doctype html>
+<html lang="es">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>La tercera menor en el diapasón</title>
+    <link rel="stylesheet" href="../assets/course.css">
+  </head>
+  <body>
+    <main>
+      <header>
+        <div class="eyebrow">Lección 0009</div>
+        <h1>La tercera menor en el diapasón</h1>
+        <p class="lede">Mayor y menor no son solo palabras: en el ukelele puedes ver la tercera moverse un traste.</p>
+      </header>
+
+      <section>
+        <h2>La idea</h2>
+        <p>En la lección anterior aprendiste que un acorde menor conserva la raíz y la quinta, pero baja la tercera un semitono. En el ukelele, un semitono es un traste.</p>
+        <p>Así que la idea física es muy directa: si una nota del acorde era la tercera mayor, para hacerla menor la movemos un traste hacia atrás.</p>
+        <p>Referencia: <a target="_blank" rel="noopener" href="https://viva.pressbooks.pub/openmusictheory/chapter/triads/">Open Music Theory: tríadas</a>.</p>
+      </section>
+
+      <section class="callout">
+        <h2>Primer principio</h2>
+        <p>Mayor a menor significa: encuentra la tercera del acorde y bájala un traste. La raíz y la quinta siguen cumpliendo su trabajo.</p>
+      </section>
+
+      <section>
+        <h2>El caso claro: G mayor a G menor</h2>
+        <p>G mayor en ukelele suele tocarse como 0232. Sus notas son G, D, G y B. La nota B es la tercera mayor dentro de la escala de G mayor: si cuentas desde G, tienes G como 1, A como 2 y B como 3.</p>
+        <p>Para convertirlo en G menor, B baja un semitono y se convierte en Bb. En la forma física, eso cambia la cuerda A del traste 2 al traste 1.</p>
+        <table class="fretboard">
+          <thead>
+            <tr><th>Grado en G mayor</th><th>1</th><th>2</th><th>3</th></tr>
+          </thead>
+          <tbody>
+            <tr><td>Nota</td><td>G / Sol</td><td>A / La</td><td>B / Si</td></tr>
+            <tr><td>Función</td><td>Raíz</td><td>Paso intermedio</td><td>Tercera mayor</td></tr>
+          </tbody>
+        </table>
+        <table class="fretboard">
+          <thead>
+            <tr><th>Acorde</th><th>Forma</th><th>Notas</th><th>Tercera</th></tr>
+          </thead>
+          <tbody>
+            <tr><td>G mayor</td><td>0232</td><td>G D G B</td><td>B / Si</td></tr>
+            <tr><td>G menor</td><td>0231</td><td>G D G Bb</td><td>Bb / Si bemol</td></tr>
+          </tbody>
+        </table>
+        <figure class="uke-diagram chord-diagram" aria-labelledby="g-minor-diagram-title">
+          <svg viewBox="0 0 420 520" role="img">
+            <title id="g-minor-diagram-title">Diagrama del acorde de Sol menor en ukelele, forma 0231</title>
+            <text x="210" y="34" text-anchor="middle" font-size="22" font-weight="700">G menor / Sol menor: 0231</text>
+            <text x="210" y="62" text-anchor="middle" class="muted" font-size="14">La tercera baja: A cuerda, traste 1</text>
+
+            <line class="nut" x1="70" y1="105" x2="350" y2="105"></line>
+            <line class="fret-line" x1="70" y1="185" x2="350" y2="185"></line>
+            <line class="fret-line" x1="70" y1="265" x2="350" y2="265"></line>
+            <line class="fret-line" x1="70" y1="345" x2="350" y2="345"></line>
+            <line class="fret-line" x1="70" y1="425" x2="350" y2="425"></line>
+
+            <line class="string" x1="80" y1="90" x2="80" y2="455"></line>
+            <line class="string" x1="166" y1="90" x2="166" y2="455"></line>
+            <line class="string" x1="252" y1="90" x2="252" y2="455"></line>
+            <line class="string" x1="338" y1="90" x2="338" y2="455"></line>
+
+            <text x="80" y="488" text-anchor="middle" font-size="18" font-weight="700">G</text>
+            <text x="166" y="488" text-anchor="middle" font-size="18" font-weight="700">C</text>
+            <text x="252" y="488" text-anchor="middle" font-size="18" font-weight="700">E</text>
+            <text x="338" y="488" text-anchor="middle" font-size="18" font-weight="700">A</text>
+
+            <circle class="open" cx="80" cy="70" r="14"></circle>
+            <text x="80" y="76" text-anchor="middle" font-size="14" font-weight="700">0</text>
+
+            <circle class="finger" cx="166" cy="305" r="20"></circle>
+            <text class="finger-label" x="166" y="312" text-anchor="middle" font-size="15" font-weight="700">2</text>
+            <circle class="finger" cx="252" cy="385" r="20"></circle>
+            <text class="finger-label" x="252" y="392" text-anchor="middle" font-size="15" font-weight="700">3</text>
+            <circle class="finger" cx="338" cy="225" r="20"></circle>
+            <text class="finger-label" x="338" y="232" text-anchor="middle" font-size="15" font-weight="700">1</text>
+
+            <text x="28" y="149" class="muted" font-size="14">1</text>
+            <text x="28" y="229" class="muted" font-size="14">2</text>
+            <text x="28" y="309" class="muted" font-size="14">3</text>
+            <text x="28" y="389" class="muted" font-size="14">4</text>
+          </svg>
+        </figure>
+      </section>
+
+      <section>
+        <h2>El caso menos obvio: C mayor a C menor</h2>
+        <p>C mayor como 0003 contiene G, C, E y C. La tercera mayor es E, que está en la cuerda E al aire.</p>
+        <p>Para tocar C menor necesitas C, Eb y G. La forma común 0333 reorganiza esas notas: G, Eb, G y C. La idea teórica es la misma, aunque la mano cambie más.</p>
+        <table class="fretboard">
+          <thead>
+            <tr><th>Acorde</th><th>Forma</th><th>Notas</th><th>Tercera</th></tr>
+          </thead>
+          <tbody>
+            <tr><td>C mayor</td><td>0003</td><td>G C E C</td><td>E / Mi</td></tr>
+            <tr><td>C menor</td><td>0333</td><td>G Eb G C</td><td>Eb / Mi bemol</td></tr>
+          </tbody>
+        </table>
+        <p>Esta es una lección importante: la teoría dice qué notas necesitas; la forma de la mano es una manera práctica de encontrarlas en el instrumento.</p>
+      </section>
+
+      <section class="practice">
+        <h2>Práctica de cinco minutos</h2>
+        <ol>
+          <li>Toca G mayor: 0232. Di "la tercera es B".</li>
+          <li>Toca G menor: 0231. Di "B bajó a Bb".</li>
+          <li>Alterna G mayor y G menor cuatro veces, escuchando el cambio de color.</li>
+          <li>Toca C mayor: 0003. Di "la tercera es E".</li>
+          <li>Toca C menor: 0333. Di "la tercera es Eb".</li>
+        </ol>
+      </section>
+
+      <section class="quiz" data-quiz>
+        <h2>Comprobación de memoria</h2>
+        <p>Si G mayor es 0232 y la tercera está en la cuerda A, ¿qué forma produce G menor?</p>
+        <div class="answers">
+          <button data-answer="wrong" data-incorrect="No. Esa forma sube la tercera, no la baja.">0233</button>
+          <button data-answer="correct" data-correct="Correcto. La cuerda A baja del traste 2 al traste 1.">0231</button>
+          <button data-answer="wrong" data-incorrect="No. Ahí cambias la quinta de la cuerda C.">0132</button>
+          <button data-answer="wrong" data-incorrect="No. Esa forma cambia la raíz repetida de la cuerda E.">0222</button>
+        </div>
+        <div class="feedback" data-feedback aria-live="polite"></div>
+      </section>
+
+      <section>
+        <h2>Lo que has ganado</h2>
+        <p>Ahora puedes comparar una forma mayor y una menor preguntando: ¿dónde está la tercera? Esa pregunta convierte los diagramas de acordes en mapas de notas, no solo en dibujos para memorizar.</p>
+        <p>Guarda a mano la <a target="_blank" rel="noopener" href="../reference/0009-formas-mayores-y-menores.html">referencia de formas mayores y menores</a>. La próxima vez podremos empezar a usar varios acordes juntos dentro de una tonalidad.</p>
+      </section>
+
+      <footer>
+        Índice: <a target="_blank" rel="noopener" href="../index.html">Teoría musical para ukelele</a>. Lección anterior: <a target="_blank" rel="noopener" href="0008-el-acorde-menor-cambia-la-tercera.html">El acorde menor cambia la tercera</a>. Próxima lección probable: acordes dentro de una tonalidad.
+      </footer>
+    </main>
+    <script src="../assets/quiz.js"></script>
+  </body>
+</html>
